@@ -4,10 +4,10 @@ import PyPDF2
 import io
 
 def main():
-    st.title("PDF 리더 with Gemini AI")
+    st.title("PDF Readerbot")
     
     # API 키 입력
-    api_key = st.text_input("Gemini API 키를 입력하세요", type="password")
+    api_key = st.text_input("당신의 Gemini API 키를 입력하세요", type="password")
     
     # PDF 파일 업로더
     uploaded_file = st.file_uploader("PDF 파일을 업로드하세요", type=['pdf'])
